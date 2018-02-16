@@ -18,6 +18,7 @@ TagManager:
   - Fire
   - penguin
   - toybox
+  - fireplace
   layers:
   - Default
   - TransparentFX
