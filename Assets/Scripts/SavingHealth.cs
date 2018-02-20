@@ -32,12 +32,14 @@ public class SavingHealth : MonoBehaviour {
         {
             
             PlayerPrefs.SetInt("Toxins", PlayerPrefs.GetInt("Toxins") - 15);
-            Debug.Log(toxins);
+            //Debug.Log(toxins);
             Destroy(pillBottle);
             Destroy(particleHealth);
             
 
         }
+
+        
 
 
 

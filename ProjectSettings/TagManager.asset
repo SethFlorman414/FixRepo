@@ -19,6 +19,7 @@ TagManager:
   - penguin
   - toybox
   - fireplace
+  - Toxins
   layers:
   - Default
   - TransparentFX
