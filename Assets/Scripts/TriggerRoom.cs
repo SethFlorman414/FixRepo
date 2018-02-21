@@ -6,11 +6,16 @@ public class TriggerRoom : MonoBehaviour {
 
     // Use this for initialization
 
-    public GameObject boxes;
+    public GameObject box1;
+    public GameObject box2;
+    public GameObject box3;
+    public GameObject box4;
+    public GameObject box5;
 
 
 
-	void Start () {
+
+    void Start () {
 		
 	}
 	
@@ -19,13 +24,17 @@ public class TriggerRoom : MonoBehaviour {
 		
 	}
 
-    public void ControllerColliderHit(ControllerColliderHit hit)
+    public void OnTriggerEnter(Collider collide)
     {
-        
-        if(hit.gameObject.tag == "Player")
+
+        if (collide.gameObject.tag == "Player")
         {
 
-            boxes.SetActive(false);
+            box1.SetActive(false);
+            box2.SetActive(false);
+            box3.SetActive(false);
+            box4.SetActive(false);
+            box5.SetActive(false);
 
         }
 

@@ -20,7 +20,7 @@ public class SavingHealth : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
-        toxins = PlayerPrefs.GetInt("Toxins");
+        //toxins = PlayerPrefs.GetInt("Toxins");
 
 	}
 
