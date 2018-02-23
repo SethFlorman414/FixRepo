@@ -20,7 +20,7 @@ public class SavingHealth : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
-        toxins = PlayerPrefs.GetInt("Toxins");
+        //toxins = PlayerPrefs.GetInt("Toxins");
 
 	}
 
@@ -32,12 +32,14 @@ public class SavingHealth : MonoBehaviour {
         {
             
             PlayerPrefs.SetInt("Toxins", PlayerPrefs.GetInt("Toxins") - 15);
-            Debug.Log(toxins);
+            //Debug.Log(toxins);
             Destroy(pillBottle);
             Destroy(particleHealth);
             
 
         }
+
+        
 
 
 
