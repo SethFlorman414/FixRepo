@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class SavingHealth : MonoBehaviour {
 
@@ -20,7 +21,15 @@ public class SavingHealth : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
-        //toxins = PlayerPrefs.GetInt("Toxins");
+        toxins = PlayerPrefs.GetInt("Toxins");
+
+
+        if(toxins >= 2000)
+        {
+
+            SceneManager.LoadScene("Start Menu");
+
+        }
 
 	}
 

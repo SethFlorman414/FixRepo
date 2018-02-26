@@ -20,6 +20,7 @@ TagManager:
   - toybox
   - fireplace
   - Toxins
+  - StatueCollider
   layers:
   - Default
   - TransparentFX
