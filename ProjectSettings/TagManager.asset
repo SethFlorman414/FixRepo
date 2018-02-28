@@ -21,6 +21,8 @@ TagManager:
   - fireplace
   - Toxins
   - StatueCollider
+  - Flashlight
+  - ThirdTrigger
   layers:
   - Default
   - TransparentFX
