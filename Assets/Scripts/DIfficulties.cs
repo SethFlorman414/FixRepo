@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class DIfficulties : MonoBehaviour {
 
@@ -32,6 +33,7 @@ public class DIfficulties : MonoBehaviour {
 
 
         PlayerPrefs.SetInt("Toxins", PlayerPrefs.GetInt("Toxins") + 0);
+        SceneManager.LoadScene("TestScene");
 
 
     }
@@ -43,6 +45,7 @@ public class DIfficulties : MonoBehaviour {
 
         PlayerPrefs.SetInt("Toxins", PlayerPrefs.GetInt("Toxins") + 250);
         light.SetActive(false);
+        SceneManager.LoadScene("TestScene");
 
     }
 
@@ -59,6 +62,7 @@ public class DIfficulties : MonoBehaviour {
         gameLight3.SetActive(false);
 
         toolBench.SetActive(true);
+        SceneManager.LoadScene("TestScene");
 
 
     }

@@ -23,6 +23,8 @@ TagManager:
   - StatueCollider
   - Flashlight
   - ThirdTrigger
+  - TeleportIgnore
+  - LastTrigger
   layers:
   - Default
   - TransparentFX
