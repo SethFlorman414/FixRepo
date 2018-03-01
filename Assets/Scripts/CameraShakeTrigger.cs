@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ImpactTrigger : MonoBehaviour {
+public class CameraShakeTrigger : MonoBehaviour {
 
     public ParticleSystem explosion;
     public CameraShake cameraShake;
