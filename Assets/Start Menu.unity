@@ -1966,6 +1966,10 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 76b18168745fb18489064caa2ce9b671, type: 3}
   m_IsPrefabParent: 0
+--- !u!1 &425850989 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 113768, guid: 126d619cf4daa52469682f85c1378b4a, type: 2}
+  m_PrefabInternal: {fileID: 318366286}
 --- !u!1001 &472214828
 Prefab:
   m_ObjectHideFlags: 0
@@ -2632,10 +2636,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   autoPopulateObjectReferences: 1
-  actualBoundaries: {fileID: 2044170289}
-  actualHeadset: {fileID: 757789352}
-  actualLeftController: {fileID: 1187263057}
-  actualRightController: {fileID: 1669376726}
+  actualBoundaries: {fileID: 808503963}
+  actualHeadset: {fileID: 1263413734}
+  actualLeftController: {fileID: 1454535553}
+  actualRightController: {fileID: 425850989}
   modelAliasLeftController: {fileID: 0}
   modelAliasRightController: {fileID: 0}
   cachedSystemSDKInfo:
@@ -2672,10 +2676,6 @@ Transform:
   m_Father: {fileID: 1201653002}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &757789352 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 100012, guid: ce816f2e6abb0504092c23ed9b970dfd, type: 2}
-  m_PrefabInternal: {fileID: 1394214416}
 --- !u!4 &764975918 stripped
 Transform:
   m_PrefabParentObject: {fileID: 400020, guid: 76b18168745fb18489064caa2ce9b671, type: 3}
@@ -2684,6 +2684,10 @@ Transform:
 Transform:
   m_PrefabParentObject: {fileID: 400000, guid: 1d819a92960d74f4db60fc6dd3f70f6d, type: 3}
   m_PrefabInternal: {fileID: 1023893204}
+--- !u!1 &808503963 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 100004, guid: 126d619cf4daa52469682f85c1378b4a, type: 2}
+  m_PrefabInternal: {fileID: 318366286}
 --- !u!1 &828794384
 GameObject:
   m_ObjectHideFlags: 0
@@ -4159,10 +4163,6 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 76b18168745fb18489064caa2ce9b671, type: 3}
   m_IsPrefabParent: 0
---- !u!1 &1187263057 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 168962, guid: ce816f2e6abb0504092c23ed9b970dfd, type: 2}
-  m_PrefabInternal: {fileID: 1394214416}
 --- !u!1 &1201653001
 GameObject:
   m_ObjectHideFlags: 0
@@ -4438,6 +4438,10 @@ Transform:
   m_Father: {fileID: 1037129778}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1263413734 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 100002, guid: 126d619cf4daa52469682f85c1378b4a, type: 2}
+  m_PrefabInternal: {fileID: 318366286}
 --- !u!1 &1268393751 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 100014, guid: ce816f2e6abb0504092c23ed9b970dfd, type: 2}
@@ -4673,6 +4677,10 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ce816f2e6abb0504092c23ed9b970dfd, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &1454535553 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 109308, guid: 126d619cf4daa52469682f85c1378b4a, type: 2}
+  m_PrefabInternal: {fileID: 318366286}
 --- !u!1 &1455070645
 GameObject:
   m_ObjectHideFlags: 0
@@ -5964,7 +5972,7 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 2100000, guid: 296de5be1228bf34380061dd6e6b0f49, type: 2}
+  - {fileID: 2100000, guid: 854806ead00d9ca4aab1c48bf7d993af, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -5991,10 +5999,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1665888584}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &1669376726 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 134650, guid: ce816f2e6abb0504092c23ed9b970dfd, type: 2}
-  m_PrefabInternal: {fileID: 1394214416}
 --- !u!1 &1691863917
 GameObject:
   m_ObjectHideFlags: 0
@@ -6136,7 +6140,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 21
+  m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1692453472
 GameObject:
@@ -7008,10 +7012,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &2044170289 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 100004, guid: ce816f2e6abb0504092c23ed9b970dfd, type: 2}
-  m_PrefabInternal: {fileID: 1394214416}
 --- !u!1001 &2045830633
 Prefab:
   m_ObjectHideFlags: 0
