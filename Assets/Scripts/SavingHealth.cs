@@ -40,7 +40,7 @@ public class SavingHealth : MonoBehaviour {
         if(collision.gameObject.tag == "health")
         {
             
-            PlayerPrefs.SetInt("Toxins", PlayerPrefs.GetInt("Toxins") - 15);
+            PlayerPrefs.SetInt("Toxins", PlayerPrefs.GetInt("Toxins") - 100);
             //Debug.Log(toxins);
             Destroy(pillBottle);
             Destroy(particleHealth);
