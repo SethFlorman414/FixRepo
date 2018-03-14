@@ -31,20 +31,24 @@ public class DisplayCanvas : MonoBehaviour {
             canvas.GetComponent<Canvas>().enabled = true;
 
         }
-        else
-        {
-
-            if (other.gameObject.tag == "Player")
-            {
-
-                canvas.GetComponent<Canvas>().enabled = false;
-
-            }
-
-        }
+        
 
 
         
 
     }
+
+    public void OnTriggerExit(Collider other)
+    {
+
+
+        if (other.gameObject.tag == "Player")
+        {
+
+            canvas.GetComponent<Canvas>().enabled = false;
+
+        }
+
+    }
+
 }

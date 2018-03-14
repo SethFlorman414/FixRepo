@@ -219,40 +219,60 @@ MonoBehaviour:
       valueInternal: 0
     LocalPositionChannelList:
     - CurrentValue:
-        valueInternal: 41.761
+        valueInternal: -71.790115
       ReferencePoseValue:
-        valueInternal: 41.761
+        valueInternal: -71.790115
       PoseValueList: []
       ChannelPerClipList:
       - LayerList:
         - CurrentOriginalValue:
-            valueInternal: 41.761
+            valueInternal: -71.790115
           KeyList: []
     - CurrentValue:
-        valueInternal: 4.79
+        valueInternal: 4.164765
       ReferencePoseValue:
-        valueInternal: 4.79
+        valueInternal: 4.164765
       PoseValueList: []
       ChannelPerClipList:
       - LayerList:
         - CurrentOriginalValue:
-            valueInternal: 4.79
+            valueInternal: 4.164765
           KeyList: []
     - CurrentValue:
-        valueInternal: 78.161
+        valueInternal: 60.107048
       ReferencePoseValue:
-        valueInternal: 78.161
+        valueInternal: 60.107048
       PoseValueList: []
       ChannelPerClipList:
       - LayerList:
         - CurrentOriginalValue:
-            valueInternal: 78.161
+            valueInternal: 60.107048
           KeyList: []
     LocalRotationSelected:
       valueInternal: 0
     RotationModePerClip:
     - valueInternal: 0
     LocalRotationChannelList:
+    - CurrentValue:
+        valueInternal: 0
+      ReferencePoseValue:
+        valueInternal: 0
+      PoseValueList: []
+      ChannelPerClipList:
+      - LayerList:
+        - CurrentOriginalValue:
+            valueInternal: 0
+          KeyList: []
+    - CurrentValue:
+        valueInternal: 0
+      ReferencePoseValue:
+        valueInternal: 0
+      PoseValueList: []
+      ChannelPerClipList:
+      - LayerList:
+        - CurrentOriginalValue:
+            valueInternal: 0
+          KeyList: []
     - CurrentValue:
         valueInternal: 0
       ReferencePoseValue:
@@ -283,58 +303,38 @@ MonoBehaviour:
         - CurrentOriginalValue:
             valueInternal: 0
           KeyList: []
-    - CurrentValue:
-        valueInternal: -0.00000004371139
-      ReferencePoseValue:
-        valueInternal: -0.00000004371139
-      PoseValueList: []
-      ChannelPerClipList:
-      - LayerList:
-        - CurrentOriginalValue:
-            valueInternal: -0.00000004371139
-          KeyList: []
-    - CurrentValue:
-        valueInternal: 0
-      ReferencePoseValue:
-        valueInternal: 0
-      PoseValueList: []
-      ChannelPerClipList:
-      - LayerList:
-        - CurrentOriginalValue:
-            valueInternal: 0
-          KeyList: []
     LocalScaleSelected:
       valueInternal: 0
     LocalScaleChannelList:
     - CurrentValue:
-        valueInternal: 2.7746692
+        valueInternal: 1
       ReferencePoseValue:
-        valueInternal: 2.7746692
+        valueInternal: 1
       PoseValueList: []
       ChannelPerClipList:
       - LayerList:
         - CurrentOriginalValue:
-            valueInternal: 2.7746692
+            valueInternal: 1
           KeyList: []
     - CurrentValue:
-        valueInternal: 2.774667
+        valueInternal: 1
       ReferencePoseValue:
-        valueInternal: 2.774667
+        valueInternal: 1
       PoseValueList: []
       ChannelPerClipList:
       - LayerList:
         - CurrentOriginalValue:
-            valueInternal: 2.774667
+            valueInternal: 1
           KeyList: []
     - CurrentValue:
-        valueInternal: 2.774667
+        valueInternal: 1
       ReferencePoseValue:
-        valueInternal: 2.774667
+        valueInternal: 1
       PoseValueList: []
       ChannelPerClipList:
       - LayerList:
         - CurrentOriginalValue:
-            valueInternal: 2.774667
+            valueInternal: 1
           KeyList: []
     IkEnable:
       valueInternal: 0
