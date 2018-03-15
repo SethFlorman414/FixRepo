@@ -28,7 +28,7 @@ public class Decode : MonoBehaviour
         if (other.gameObject.tag == "CanvasTrigger")
         {
 
-            decodeCanvas.GetComponent<Canvas>().enabled = true;
+            decodeCanvas.SetActive(true);
 
         }
 
@@ -42,7 +42,7 @@ public class Decode : MonoBehaviour
         if (other.gameObject.tag == "CanvasTrigger")
         {
 
-            decodeCanvas.GetComponent<Canvas>().enabled = false;
+            decodeCanvas.SetActive(false);
 
         }
 
