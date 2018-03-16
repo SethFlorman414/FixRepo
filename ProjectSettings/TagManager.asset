@@ -25,6 +25,9 @@ TagManager:
   - ThirdTrigger
   - TeleportIgnore
   - LastTrigger
+  - BadTrigger
+  - GoodTrigger
+  - CanvasTrigger
   layers:
   - Default
   - TransparentFX
